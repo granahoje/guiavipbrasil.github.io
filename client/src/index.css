@@ -401,3 +401,76 @@
     }
   }
 }
+
+
+  .chat-container {
+    @apply flex h-full flex-col bg-gradient-to-b from-black/40 to-black/60;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .chat-header {
+    @apply bg-gradient-to-r from-pink-600/30 to-pink-500/20 px-5 py-4 border-b border-pink-500/30;
+    backdrop-filter: blur(10px);
+  }
+
+  .chat-header h3 {
+    @apply text-lg font-bold text-pink-300;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .chat-messages {
+    @apply flex-1 overflow-y-auto space-y-3 p-4;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(236, 72, 153, 0.3) transparent;
+  }
+
+  .chat-messages::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .chat-messages::-webkit-scrollbar-thumb {
+    background: rgba(236, 72, 153, 0.3);
+    border-radius: 3px;
+  }
+
+  .chat-message {
+    @apply rounded-xl px-4 py-2 text-sm max-w-xs;
+    animation: slideInUp 0.3s ease-out;
+  }
+
+  .chat-message.usuario {
+    @apply ml-auto bg-pink-600/40 text-pink-100 border border-pink-500/50;
+  }
+
+  .chat-message.assistente {
+    @apply mr-auto bg-white/10 text-white border border-white/20;
+  }
+
+  .chat-input-area {
+    @apply border-t border-pink-500/30 bg-black/40 p-3 backdrop-blur;
+  }
+
+  .chat-input {
+    @apply flex gap-2 items-center;
+  }
+
+  .chat-input input {
+    @apply flex-1 rounded-full bg-white/10 px-4 py-2 text-sm text-white placeholder:text-white/50 border border-white/20 focus:border-pink-500/50 focus:outline-none transition-colors;
+  }
+
+  .chat-input button {
+    @apply rounded-full bg-pink-600 hover:bg-pink-700 p-2 text-white transition-colors;
+  }
+
+  .chat-suggestions {
+    @apply flex flex-wrap gap-2 p-3;
+  }
+
+  .chat-suggestion-btn {
+    @apply rounded-full bg-white/10 px-3 py-1 text-xs text-white border border-white/20 hover:bg-pink-600/40 hover:border-pink-500/50 transition-all cursor-pointer;
+  }

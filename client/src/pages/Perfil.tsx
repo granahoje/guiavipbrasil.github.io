@@ -130,7 +130,7 @@ export default function Perfil() {
           setMensagens([
             {
               tipo: "assistente",
-              texto: `Olá! Sou o assistente virtual de ${encontrado.nome}. Pergunte sobre disponibilidade, cidade, contato, discrição ou detalhes do perfil.`,
+              texto: `Olá! Sou ${encontrado.nome}. Pergunte sobre disponibilidade, cidade, contato, discrição ou detalhes do perfil.`,
             },
           ]);
         } else {
@@ -254,20 +254,20 @@ export default function Perfil() {
             </div>
 
             {perfil.valores && (
-              <div className="rounded-2xl border border-accent/30 bg-accent/5 p-5">
-                <p className="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-accent">Tabela de Valores</p>
-                <div className="grid gap-3 sm:grid-cols-3">
-                  <div className="rounded-lg border border-accent/20 bg-accent/10 p-3 text-center">
-                    <p className="text-xs font-semibold text-muted-foreground">30 minutos</p>
-                    <p className="mt-2 text-2xl font-bold text-accent">R$ {perfil.valores["30min"]}</p>
+              <div className="rounded-2xl border-2 border-pink-500/60 bg-gradient-to-r from-pink-600/20 to-pink-500/10 p-6 shadow-lg shadow-pink-500/20">
+                <p className="mb-5 text-center text-lg font-bold uppercase tracking-[0.2em] text-pink-400">💰 Tabela de Valores 💰</p>
+                <div className="grid gap-4 sm:grid-cols-3">
+                  <div className="rounded-xl border-2 border-pink-400/50 bg-pink-500/15 p-4 text-center hover:scale-105 transition-transform">
+                    <p className="text-sm font-bold text-pink-200">30 MINUTOS</p>
+                    <p className="mt-3 text-3xl font-black text-pink-300">R$ {perfil.valores["30min"]}</p>
                   </div>
-                  <div className="rounded-lg border border-accent/20 bg-accent/10 p-3 text-center">
-                    <p className="text-xs font-semibold text-muted-foreground">1 hora</p>
-                    <p className="mt-2 text-2xl font-bold text-accent">R$ {perfil.valores["1hora"]}</p>
+                  <div className="rounded-xl border-2 border-pink-400/50 bg-pink-500/15 p-4 text-center hover:scale-105 transition-transform">
+                    <p className="text-sm font-bold text-pink-200">1 HORA</p>
+                    <p className="mt-3 text-3xl font-black text-pink-300">R$ {perfil.valores["1hora"]}</p>
                   </div>
-                  <div className="rounded-lg border border-accent/20 bg-accent/10 p-3 text-center">
-                    <p className="text-xs font-semibold text-muted-foreground">2 horas</p>
-                    <p className="mt-2 text-2xl font-bold text-accent">R$ {perfil.valores["2horas"]}</p>
+                  <div className="rounded-xl border-2 border-pink-400/50 bg-pink-500/15 p-4 text-center hover:scale-105 transition-transform">
+                    <p className="text-sm font-bold text-pink-200">2 HORAS</p>
+                    <p className="mt-3 text-3xl font-black text-pink-300">R$ {perfil.valores["2horas"]}</p>
                   </div>
                 </div>
               </div>
