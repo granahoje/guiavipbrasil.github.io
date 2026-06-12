@@ -131,7 +131,7 @@ export default function Home() {
         ) : (
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
             {perfisFiltrados.map((perfil) => (
-              <Link key={perfil.id} href={`/${perfil.url_amigavel}`}>
+              <Link key={perfil.id} href={`/${perfil.url_amigavel}/`}>
                 <a className="profile-card group cursor-pointer">
                   <div className="relative h-72 overflow-hidden bg-muted">
                     <img
