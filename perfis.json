@@ -6,7 +6,12 @@
     "cidade": "São Paulo",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
     "foto_original": "3e1ed949-f074-434a-8322-31ebe0ec19a4.jpeg",
-    "url_amigavel": "perfil-alessandra-1"
+    "url_amigavel": "perfil-alessandra-1",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "cidade": "Rio de Janeiro",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
     "foto_original": "62466377-5bb1-4623-adfd-d70c351ac794.jpeg",
-    "url_amigavel": "perfil-beatriz-2"
+    "url_amigavel": "perfil-beatriz-2",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "cidade": "Belo Horizonte",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
     "foto_original": "GRraWmaXAAEfnzy.jpg",
-    "url_amigavel": "perfil-camila-3"
+    "url_amigavel": "perfil-camila-3",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "cidade": "Brasília",
     "descricao": "Discreta, educada e com total comprometimento.",
     "foto_original": "acompanhantesdeluxosp-cacaumuniz_100.webp",
-    "url_amigavel": "perfil-daniela-4"
+    "url_amigavel": "perfil-daniela-4",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "cidade": "Salvador",
     "descricao": "Oferecendo momentos de luxo e conforto.",
     "foto_original": "acompanhantesdeluxosp-cacaumuniz_21-768x492.webp",
-    "url_amigavel": "perfil-elisa-5"
+    "url_amigavel": "perfil-elisa-5",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 6,
@@ -51,7 +76,12 @@
     "cidade": "Fortaleza",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
     "foto_original": "blog-lexi-3.jpg",
-    "url_amigavel": "perfil-fernanda-6"
+    "url_amigavel": "perfil-fernanda-6",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 7,
@@ -60,7 +90,12 @@
     "cidade": "Manaus",
     "descricao": "Experiência de classe alta e discrição garantida.",
     "foto_original": "c36fdabeb30fed89770927eefa18dc0f.jpg",
-    "url_amigavel": "perfil-gabriela-7"
+    "url_amigavel": "perfil-gabriela-7",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 8,
@@ -69,7 +104,12 @@
     "cidade": "Recife",
     "descricao": "Profissional qualificada para acompanhamento VIP.",
     "foto_original": "c7241d657261689a23671d505f113a1d_high.webp",
-    "url_amigavel": "perfil-helena-8"
+    "url_amigavel": "perfil-helena-8",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 9,
@@ -78,7 +118,12 @@
     "cidade": "Porto Alegre",
     "descricao": "Dedicada a proporcionar momentos memoráveis.",
     "foto_original": "images (1).jpeg",
-    "url_amigavel": "perfil-isabela-9"
+    "url_amigavel": "perfil-isabela-9",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 10,
@@ -87,7 +132,12 @@
     "cidade": "Curitiba",
     "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
     "foto_original": "images (10).jpeg",
-    "url_amigavel": "perfil-juliana-10"
+    "url_amigavel": "perfil-juliana-10",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 11,
@@ -96,7 +146,12 @@
     "cidade": "Guarulhos",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
     "foto_original": "images (11).jpeg",
-    "url_amigavel": "perfil-karina-11"
+    "url_amigavel": "perfil-karina-11",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 12,
@@ -105,7 +160,12 @@
     "cidade": "Campinas",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
     "foto_original": "images (12).jpeg",
-    "url_amigavel": "perfil-larissa-12"
+    "url_amigavel": "perfil-larissa-12",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 13,
@@ -114,7 +174,12 @@
     "cidade": "Santos",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
     "foto_original": "images (13).jpeg",
-    "url_amigavel": "perfil-mariana-13"
+    "url_amigavel": "perfil-mariana-13",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 14,
@@ -123,7 +188,12 @@
     "cidade": "Sorocaba",
     "descricao": "Discreta, educada e com total comprometimento.",
     "foto_original": "images (14).jpeg",
-    "url_amigavel": "perfil-natália-14"
+    "url_amigavel": "perfil-natália-14",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 15,
@@ -132,7 +202,12 @@
     "cidade": "Ribeirão Preto",
     "descricao": "Oferecendo momentos de luxo e conforto.",
     "foto_original": "images (15).jpeg",
-    "url_amigavel": "perfil-olivia-15"
+    "url_amigavel": "perfil-olivia-15",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 16,
@@ -141,7 +216,12 @@
     "cidade": "Goiânia",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
     "foto_original": "images (16).jpeg",
-    "url_amigavel": "perfil-patrícia-16"
+    "url_amigavel": "perfil-patrícia-16",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 17,
@@ -150,7 +230,12 @@
     "cidade": "Belém",
     "descricao": "Experiência de classe alta e discrição garantida.",
     "foto_original": "images (17).jpeg",
-    "url_amigavel": "perfil-quézia-17"
+    "url_amigavel": "perfil-quézia-17",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 18,
@@ -159,7 +244,12 @@
     "cidade": "Maceió",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
     "foto_original": "images (18).jpeg",
-    "url_amigavel": "perfil-adriana-18"
+    "url_amigavel": "perfil-adriana-18",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 19,
@@ -168,7 +258,12 @@
     "cidade": "Teresina",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
     "foto_original": "images (19).jpeg",
-    "url_amigavel": "perfil-bruna-19"
+    "url_amigavel": "perfil-bruna-19",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 20,
@@ -177,7 +272,12 @@
     "cidade": "João Pessoa",
     "descricao": "Discreta, educada e com total comprometimento.",
     "foto_original": "images (2).jpeg",
-    "url_amigavel": "perfil-cecília-20"
+    "url_amigavel": "perfil-cecília-20",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 21,
@@ -186,7 +286,12 @@
     "cidade": "Natal",
     "descricao": "Oferecendo momentos de luxo e conforto.",
     "foto_original": "images (20).jpeg",
-    "url_amigavel": "perfil-diana-21"
+    "url_amigavel": "perfil-diana-21",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 22,
@@ -195,7 +300,12 @@
     "cidade": "Aracaju",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
     "foto_original": "images (21).jpeg",
-    "url_amigavel": "perfil-emilia-22"
+    "url_amigavel": "perfil-emilia-22",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 23,
@@ -204,7 +314,12 @@
     "cidade": "Cuiabá",
     "descricao": "Experiência de classe alta e discrição garantida.",
     "foto_original": "images (22).jpeg",
-    "url_amigavel": "perfil-flávia-23"
+    "url_amigavel": "perfil-flávia-23",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 24,
@@ -213,7 +328,12 @@
     "cidade": "Campo Grande",
     "descricao": "Profissional qualificada para acompanhamento VIP.",
     "foto_original": "images (23).jpeg",
-    "url_amigavel": "perfil-gisele-24"
+    "url_amigavel": "perfil-gisele-24",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 25,
@@ -222,7 +342,12 @@
     "cidade": "Palmas",
     "descricao": "Dedicada a proporcionar momentos memoráveis.",
     "foto_original": "images (3).jpeg",
-    "url_amigavel": "perfil-heloísa-25"
+    "url_amigavel": "perfil-heloísa-25",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 26,
@@ -231,7 +356,12 @@
     "cidade": "Boa Vista",
     "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
     "foto_original": "images (4).jpeg",
-    "url_amigavel": "perfil-iris-26"
+    "url_amigavel": "perfil-iris-26",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 27,
@@ -240,7 +370,12 @@
     "cidade": "Macapá",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
     "foto_original": "images (5).jpeg",
-    "url_amigavel": "perfil-joana-27"
+    "url_amigavel": "perfil-joana-27",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 28,
@@ -249,7 +384,12 @@
     "cidade": "Rio Branco",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
     "foto_original": "images (6).jpeg",
-    "url_amigavel": "perfil-karla-28"
+    "url_amigavel": "perfil-karla-28",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 29,
@@ -258,7 +398,12 @@
     "cidade": "Vitória",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
     "foto_original": "images (7).jpeg",
-    "url_amigavel": "perfil-lúcia-29"
+    "url_amigavel": "perfil-lúcia-29",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 30,
@@ -267,7 +412,12 @@
     "cidade": "Florianópolis",
     "descricao": "Discreta, educada e com total comprometimento.",
     "foto_original": "images (8).jpeg",
-    "url_amigavel": "perfil-marina-30"
+    "url_amigavel": "perfil-marina-30",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 31,
@@ -276,7 +426,12 @@
     "cidade": "Blumenau",
     "descricao": "Oferecendo momentos de luxo e conforto.",
     "foto_original": "images (9).jpeg",
-    "url_amigavel": "perfil-nathalia-31"
+    "url_amigavel": "perfil-nathalia-31",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 32,
@@ -285,7 +440,12 @@
     "cidade": "Joinville",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
     "foto_original": "prompthero-prompt-7bd407a328e.webp",
-    "url_amigavel": "perfil-ofélia-32"
+    "url_amigavel": "perfil-ofélia-32",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   },
   {
     "id": 33,
@@ -294,6 +454,11 @@
     "cidade": "Londrina",
     "descricao": "Experiência de classe alta e discrição garantida.",
     "foto_original": "t67f001068e299_h.webp",
-    "url_amigavel": "perfil-priscila-33"
+    "url_amigavel": "perfil-priscila-33",
+    "valores": {
+      "30min": 70,
+      "1hora": 100,
+      "2horas": 180
+    }
   }
 ]
