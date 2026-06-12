@@ -110,7 +110,7 @@ function gerarResposta(perfil: Perfil, mensagem: string) {
 }
 
 export default function Perfil() {
-  const { id } = useParams();
+  const { url: id } = useParams();
   const [perfil, setPerfil] = useState<Perfil | null>(null);
   const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState(false);
