@@ -33,6 +33,7 @@ const sugestoes = [
   "Qual cidade atende?",
   "Como funciona o contato?",
   "Quero saber mais sobre discrição",
+  "Falar no WhatsApp",
 ];
 
 function gerarResposta(perfil: Perfil, mensagem: string) {
@@ -72,7 +73,11 @@ function gerarResposta(perfil: Perfil, mensagem: string) {
   }
 
   if (texto.includes("obrigado") || texto.includes("obrigada") || texto.includes("valeu")) {
-    return `Por nada. Se quiser, posso ajudar com informações sobre cidade, disponibilidade, contato, discrição ou resumo do perfil de ${perfil.nome}.`;
+    return `Por nada! Se precisar de mais informações sobre ${perfil.nome}, estou aqui para ajudar. Você pode também entrar em contato direto pelo WhatsApp.`;
+  }
+
+  if (texto.includes("whatsapp") && (texto.includes("falar") || texto.includes("conversa") || texto.includes("chat"))) {
+    return `Perfeito! Clique no botão abaixo para conversar com ${perfil.nome} diretamente no WhatsApp. Assim você terá uma comunicação mais rápida e direta.`;
   }
 
   const respostasGerais = [
@@ -218,6 +223,19 @@ export default function Perfil() {
                 Conversar Agora
               </Button>
               <Button
+                className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold transition-all duration-300"
+                onClick={() => {
+                  const mensagem = `Olá! Gostaria de saber mais sobre seus serviços. Confira meu perfil no Guia VIP Brasil.`;
+                  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(mensagem)}`;
+                  window.open(whatsappUrl, '_blank');
+                }}
+              >
+                <svg className="mr-2 h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.947 1.227l-.355.214-.368-.06c-1.286-.264-2.514-.666-3.635-1.23l-.5-.287-.5.287c-.55.315-1.058.71-1.499 1.177-.44.467-.77 1.012-.97 1.606-.2.595-.23 1.231-.087 1.837.143.606.428 1.164.822 1.635.394.47.923.832 1.516 1.053l.482.16-.482.16c-.593.22-1.122.582-1.516 1.053-.394.47-.679 1.029-.822 1.635-.143.606-.113 1.242.087 1.837.2.594.529 1.139.97 1.606.441.467.949.862 1.499 1.177l.5.287.5-.287c1.121-.564 2.349-.966 3.635-1.23l.368-.06.355.214a9.87 9.87 0 004.947 1.227h.004c5.442 0 9.884-4.418 9.884-9.85C21.884 5.139 17.442.721 11.884.721z"/>
+                </svg>
+                Contatar no WhatsApp
+              </Button>
+              <Button
                 variant="outline"
                 className="w-full"
                 onClick={() => {
@@ -225,7 +243,7 @@ export default function Perfil() {
                   if (navigator.share) {
                     navigator.share({ title: `${perfil.nome} - Guia VIP Brasil`, text: texto, url: urlCompleta });
                   } else {
-                    navigator.clipboard?.writeText(urlCompleta);
+                    navigator.clipboard?.copyText(urlCompleta);
                     alert("Link copiado para a área de transferência.");
                   }
                 }}
@@ -249,10 +267,10 @@ export default function Perfil() {
             </button>
           </div>
 
-          <div className="flex-1 space-y-3 overflow-y-auto p-4">
+          <div className="flex-1 space-y-3 overflow-y-auto p-4 scroll-smooth">
             {mensagens.map((msg, idx) => (
-              <div key={idx} className={`flex ${msg.tipo === "usuario" ? "justify-end" : "justify-start"}`}>
-                <div className={`max-w-[82%] rounded-2xl px-4 py-3 text-sm leading-6 ${msg.tipo === "usuario" ? "bg-primary text-primary-foreground" : "bg-white/[0.07] text-foreground"}`}>
+              <div key={idx} className={`flex ${msg.tipo === "usuario" ? "justify-end" : "justify-start"} animate-fadeInUp`}>
+                <div className={`max-w-[82%] rounded-2xl px-4 py-3 text-sm leading-6 transition-all duration-300 ${msg.tipo === "usuario" ? "bg-accent text-accent-foreground shadow-lg shadow-accent/20" : "bg-white/[0.08] text-foreground border border-white/10"}`}>
                   {msg.texto}
                 </div>
               </div>
@@ -261,11 +279,28 @@ export default function Perfil() {
 
           <div className="border-t border-white/10 p-4">
             <div className="mb-3 flex flex-wrap gap-2">
-              {sugestoes.map((sugestao) => (
-                <button key={sugestao} onClick={() => enviarMensagem(sugestao)} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs text-muted-foreground transition hover:border-accent hover:text-foreground">
-                  {sugestao}
-                </button>
-              ))}
+              {sugestoes.map((sugestao) => {
+                if (sugestao === "Falar no WhatsApp") {
+                  return (
+                    <button
+                      key={sugestao}
+                      onClick={() => {
+                        const mensagem = `Olá! Gostaria de saber mais sobre seus serviços.`;
+                        const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(mensagem)}`;
+                        window.open(whatsappUrl, '_blank');
+                      }}
+                      className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-xs text-green-400 transition hover:border-green-500 hover:bg-green-500/20"
+                    >
+                      {sugestao}
+                    </button>
+                  );
+                }
+                return (
+                  <button key={sugestao} onClick={() => enviarMensagem(sugestao)} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs text-muted-foreground transition hover:border-accent hover:text-foreground">
+                    {sugestao}
+                  </button>
+                );
+              })}
             </div>
             <div className="flex gap-2">
               <input
