@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joana - Guia VIP Brasil</title>
-    <script>
-        // Redirecionar para a raiz mantendo a rota
-        if (window.location.pathname !== '/') {
-            // Armazenar a rota original
-            sessionStorage.setItem('targetRoute', window.location.pathname);
-            // Redirecionar para a raiz
-            window.location.href = '/';
-        }
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joana - Guia VIP Brasil</title>
+  <script>
+    sessionStorage.setItem('redirect', window.location.origin + '/perfil-joana-27');
+    window.location.replace('/');
+  </script>
 </head>
 <body>
-    <p>Carregando...</p>
+  <noscript>
+    <p>Redirecionando para o perfil de Joana.</p>
+    <a href="/">Voltar ao Guia VIP Brasil</a>
+  </noscript>
 </body>
 </html>
