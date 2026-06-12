@@ -13,6 +13,7 @@ interface Perfil {
   descricao: string;
   foto_original: string;
   url_amigavel: string;
+  pix_chave?: string;
   valores?: { "30min": number; "1hora": number; "2horas": number };
 }
 
@@ -40,70 +41,69 @@ const sugestoes = [
 
 function gerarResposta(perfil: Perfil, mensagem: string) {
   const texto = normalizar(mensagem);
-  const saudacao = `Olá! Sou o assistente virtual de ${perfil.nome}.`;
 
-  if (/\b(oi|ola|olá|bom dia|boa tarde|boa noite|e ai|e aí|opa|e aew|oie)\b/.test(texto)) {
-    return `${saudacao} Bem-vindo! Posso responder dúvidas sobre localização (${perfil.cidade}), disponibilidade, valores, atendimento, discrição e como entrar em contato. O que você gostaria de saber?`;
+  if (/(oi|ola|olá|bom dia|boa tarde|boa noite|e ai|e aí|opa|e aew|oie)/.test(texto)) {
+    return `Oi, tudo bem? Sou ${perfil.nome}! 😈 Vem conversar comigo, adoro conhecer gente interessante...`;
   }
 
   if (texto.includes("cidade") || texto.includes("local") || texto.includes("onde") || texto.includes("endereco") || texto.includes("endereço") || texto.includes("localizacao") || texto.includes("localização")) {
-    return `${perfil.nome} atende em ${perfil.cidade}. Para confirmar se faz atendimento em bairros específicos ou cidades próximas, envie uma mensagem com sua localização.`;
+    return `Estou em ${perfil.cidade}, pertinho de você! Quer vir me visitar? 🔥`;
   }
 
   if (texto.includes("disponivel") || texto.includes("disponibilidade") || texto.includes("hoje") || texto.includes("agora") || texto.includes("horario") || texto.includes("horário") || texto.includes("que horas") || texto.includes("quando")) {
-    return `A disponibilidade de ${perfil.nome} varia conforme o dia. Para confirmar um horário específico, envie: a data desejada, o horário e a duração que você procura. Quanto mais antecedência, melhor!`;
+    return `Depende do dia, mas se você quiser, a gente marca! Me manda a data e horário que você quer, e a gente combina tudo... 😉`;
   }
 
   if (texto.includes("valor") || texto.includes("preco") || texto.includes("preço") || texto.includes("custa") || texto.includes("cache") || texto.includes("cachê") || texto.includes("quanto") || texto.includes("tabela") || texto.includes("investimento")) {
-    return `Os valores de ${perfil.nome} são competitivos e variam conforme a duração e tipo de atendimento. Para uma cotação personalizada, informe: duração desejada (1h, 2h, etc), tipo de atendimento e se é primeira vez.`;
+    return `Os valores estão ali na tabela, mas tudo depende do que você quer fazer comigo... Quanto mais tempo, mais diversão! 💦`;
   }
 
   if (texto.includes("atendimento") || texto.includes("o que oferece") || texto.includes("servico") || texto.includes("serviço") || texto.includes("faz o que") || texto.includes("oferece")) {
-    return `${perfil.nome} oferece atendimento VIP discreto e profissional. Os detalhes específicos dos serviços são melhor discutidos em uma conversa privada. Envie uma mensagem com suas preferências e ${perfil.nome} responderá com as opções disponíveis.`;
+    return `Ah, eu faço de tudo! Adoro dar o cuzinho, gozar na sua boca, sentar na sua cara... Qualquer coisa que você quiser, eu topo! 🍆💦`;
   }
 
   if (texto.includes("whatsapp") || texto.includes("telefone") || texto.includes("contato") || texto.includes("falar") || texto.includes("mensagem") || texto.includes("como falo") || texto.includes("como entro em contato")) {
-    return `Para falar com ${perfil.nome}, envie uma mensagem clara, respeitosa e objetiva. Inclua: seu nome, a cidade onde você está, data e horário desejados. ${perfil.nome} responderá assim que possível com as informações completas.`;
+    return `Aqui a gente já tá conversando! Mas se quiser me chamar de outro jeito, manda um PIX e a gente combina tudo direitinho... 😏`;
   }
 
   if (texto.includes("discreto") || texto.includes("discricao") || texto.includes("discrição") || texto.includes("sigilo") || texto.includes("privacidade") || texto.includes("confidencial") || texto.includes("segredo")) {
-    return `${perfil.nome} valoriza muito discrição e confidencialidade. Todas as informações pessoais são tratadas com total sigilo. Evite compartilhar dados sensíveis desnecessariamente e combine tudo com discrição.`;
+    return `Claro! Tudo que acontecer entre a gente fica entre a gente. Sigilo total, sem preocupação! 🤐`;
   }
 
   if (texto.includes("perfil") || texto.includes("sobre") || texto.includes("descricao") || texto.includes("descrição") || texto.includes("quem") || texto.includes("quem e") || texto.includes("me fale sobre")) {
-    return `${perfil.nome} é um perfil ${perfil.categoria === "feminina" ? "feminino" : "trans"} em ${perfil.cidade}. Descrição: ${perfil.descricao}. Para saber mais detalhes ou tirar dúvidas, envie uma mensagem!`;
+    return `Sou ${perfil.nome}, uma gata de ${perfil.cidade} que adora sexo. Meu lema é: quanto mais safado, melhor! Vem comigo que você não vai se arrepender... 😘`;
   }
 
   if (texto.includes("seguro") || texto.includes("segurança") || texto.includes("seguranca") || texto.includes("golpe") || texto.includes("confiavel") || texto.includes("confiável") || texto.includes("pode confiar") || texto.includes("real")) {
-    return `${perfil.nome} é um perfil verificado no Guia VIP Brasil. Para sua segurança: confirme informações antes de qualquer deslocamento, mantenha a conversa respeitosa, e combine todos os detalhes com clareza.`;
+    return `Pode confiar! Sou real, minhas fotos são todas recentes. Já atendi muita gente e todos voltam querendo mais! 🔥`;
   }
 
   if (texto.includes("obrigado") || texto.includes("obrigada") || texto.includes("valeu") || texto.includes("obg") || texto.includes("vlw")) {
-    return `Por nada! Se tiver mais dúvidas sobre ${perfil.nome}, estou aqui para ajudar. Pergunte sobre cidade, horários, valores, atendimento ou qualquer outra informação!`;
+    return `De nada, babe! Qualquer dúvida, é só chamar. Estou aqui pra te deixar louco de tesão! 😈`;
   }
 
   if (texto.includes("fotos") || texto.includes("foto") || texto.includes("imagem") || texto.includes("como e") || texto.includes("aparencia")) {
-    return `As fotos no perfil de ${perfil.nome} são recentes e refletem a realidade. Para mais imagens ou detalhes visuais, entre em contato direto com ${perfil.nome}.`;
+    return `As fotos são todas minhas mesmo, recentes e gostosas! Quer mais? Vem me ver pessoalmente que é muito melhor... 📸🔥`;
   }
 
   if (texto.includes("primeira vez") || texto.includes("nunca fiz") || texto.includes("inexperiente") || texto.includes("iniciante")) {
-    return `Sem problemas! ${perfil.nome} é atenciosa e sabe lidar com clientes de primeira viagem. Envie uma mensagem explicando que é sua primeira vez, e ${perfil.nome} fará tudo para que seja uma experiência confortável e memorável.`;
+    return `Primeira vez? Sem problema! Eu vou te ensinar tudo que você precisa saber... e muito mais! 😉💦`;
   }
 
   if (texto.includes("casal") || texto.includes("acompanhante") || texto.includes("companhia") || texto.includes("evento") || texto.includes("sair")) {
-    return `${perfil.nome} oferece atendimento VIP. Para eventos, saídas ou acompanhamento especial, envie uma mensagem com os detalhes do que você procura, data, horário e duração desejada.`;
+    return `Amo casais! A gente faz uma putaria gostosa mesmo. Me chama que a gente combina tudo! 🔥`;
   }
 
   if (texto.includes("hotel") || texto.includes("motel") || texto.includes("seu lugar") || texto.includes("meu lugar")) {
-    return `${perfil.nome} pode atender em diversos locais. Para confirmar opções de local (hotel, motel, residencial), envie uma mensagem com suas preferências e ${perfil.nome} indicará as melhores opções.`;
+    return `Posso ir no seu lugar ou você vem aqui. Tanto faz, desde que a gente fique sozinho pra fazer putaria! 😈`;
   }
 
   const respostasGerais = [
-    `${saudacao} Posso ajudar com informações sobre localização (${perfil.cidade}), disponibilidade, valores, tipo de atendimento, discrição e como entrar em contato. O que você gostaria de saber?`,
-    `Entendi sua pergunta! Para uma resposta mais completa, posso ajudar com: localização, horários, valores, tipos de atendimento, segurança, discrição ou detalhes do perfil de ${perfil.nome}. Qual desses interessa?`,
-    `${perfil.nome} está em ${perfil.cidade} e oferece atendimento VIP profissional. Posso responder dúvidas sobre disponibilidade, valores, atendimento, segurança e como fazer o primeiro contato.`,
-    `Boa pergunta! Para uma resposta mais precisa, me diga se você quer saber sobre: onde ${perfil.nome} atende, horários disponíveis, valores, tipo de atendimento, ou como entrar em contato.`,
-    `Posso ajudar! ${perfil.nome} está disponível para atendimento VIP em ${perfil.cidade}. Pergunte sobre horários, valores, tipos de serviço, ou como fazer contato direto.`
+    `Oi, tudo bem? Quer saber mais sobre mim? Sou uma gata que adora sexo e estou aqui pra você se divertir! 🔥`,
+    `Me faz uma pergunta que eu respondo! Quer saber sobre valores, disponibilidade ou como a gente faz? 😏`,
+    `Estou aqui e pronta pra te deixar louco! Quer marcar um encontro gostoso? 💦`,
+    `Que tal a gente parar de conversa e partir pra ação? Manda um PIX e vem me ver! 🍆`,
+    `Adoro conversar, mas o que eu mais gosto é de ação! Bora marcar? 😈`
   ];
 
   return respostasGerais[Math.floor(Math.random() * respostasGerais.length)];
@@ -116,6 +116,7 @@ export default function Perfil() {
   const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState(false);
   const [chatAberto, setChatAberto] = useState(false);
+  const [pixCopiado, setPixCopiado] = useState(false);
   const [mensagens, setMensagens] = useState<Mensagem[]>([]);
   const [inputMensagem, setInputMensagem] = useState("");
 
@@ -159,7 +160,14 @@ export default function Perfil() {
   };
 
   if (carregando) {
-    return (
+  
+  const copiarPix = () => {
+    navigator.clipboard.writeText(perfil.pix_chave || '52295826-c5c1-4577-a7b0-88dcde648f71');
+    setPixCopiado(true);
+    setTimeout(() => setPixCopiado(false), 2000);
+  };
+
+  return (
       <div className="site-shell flex min-h-screen items-center justify-center bg-background">
         <p className="text-muted-foreground">Carregando perfil...</p>
       </div>
@@ -167,7 +175,14 @@ export default function Perfil() {
   }
 
   if (erro || !perfil) {
-    return (
+  
+  const copiarPix = () => {
+    navigator.clipboard.writeText(perfil.pix_chave || '52295826-c5c1-4577-a7b0-88dcde648f71');
+    setPixCopiado(true);
+    setTimeout(() => setPixCopiado(false), 2000);
+  };
+
+  return (
       <div className="site-shell flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
         <p className="text-muted-foreground">Perfil não encontrado.</p>
         <Button onClick={() => navigate("/")} variant="outline">
@@ -180,6 +195,13 @@ export default function Perfil() {
 
   const urlCompleta = typeof window !== "undefined" ? window.location.href : "";
   const imagemCompartilhamento = getProfileImageUrl(perfil);
+
+
+  const copiarPix = () => {
+    navigator.clipboard.writeText(perfil.pix_chave || '52295826-c5c1-4577-a7b0-88dcde648f71');
+    setPixCopiado(true);
+    setTimeout(() => setPixCopiado(false), 2000);
+  };
 
   return (
     <div className="site-shell min-h-screen bg-background">
@@ -261,6 +283,14 @@ export default function Perfil() {
                 <MessageCircle className="mr-2 h-4 w-4" />
                 Conversar Agora
               </Button>
+
+              <Button 
+                className="w-full bg-pink-600 hover:bg-pink-700 text-white font-bold py-3"
+                onClick={copiarPix}
+              >
+                {pixCopiado ? '✓ PIX Copiado!' : '💰 Copiar PIX'}
+              </Button>
+
               <Button
                 variant="outline"
                 className="w-full"
