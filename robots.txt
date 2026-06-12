@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guiavipbrasil.github.io/sitemap.xml
