@@ -5,7 +5,7 @@
     "categoria": "feminina",
     "cidade": "São Paulo",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
-    "foto_original": "3e1ed949-f074-434a-8322-31ebe0ec19a4.jpeg",
+    "foto_original": "profile-1.jpeg",
     "url_amigavel": "perfil-alessandra-1",
     "valores": {
       "30min": 150,
@@ -19,7 +19,7 @@
     "categoria": "feminina",
     "cidade": "Rio de Janeiro",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
-    "foto_original": "62466377-5bb1-4623-adfd-d70c351ac794.jpeg",
+    "foto_original": "profile-2.jpeg",
     "url_amigavel": "perfil-beatriz-2",
     "valores": {
       "30min": 200,
@@ -33,7 +33,7 @@
     "categoria": "feminina",
     "cidade": "Belo Horizonte",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
-    "foto_original": "GRraWmaXAAEfnzy.jpg",
+    "foto_original": "profile-3.webp",
     "url_amigavel": "perfil-camila-3",
     "valores": {
       "30min": 100,
@@ -47,7 +47,7 @@
     "categoria": "feminina",
     "cidade": "Brasília",
     "descricao": "Discreta, educada e com total comprometimento.",
-    "foto_original": "acompanhantesdeluxosp-cacaumuniz_100.webp",
+    "foto_original": "profile-4.webp",
     "url_amigavel": "perfil-daniela-4",
     "valores": {
       "30min": 150,
@@ -61,7 +61,7 @@
     "categoria": "feminina",
     "cidade": "Salvador",
     "descricao": "Oferecendo momentos de luxo e conforto.",
-    "foto_original": "acompanhantesdeluxosp-cacaumuniz_21-768x492.webp",
+    "foto_original": "profile-5.jpg",
     "url_amigavel": "perfil-elisa-5",
     "valores": {
       "30min": 120,
@@ -75,7 +75,7 @@
     "categoria": "feminina",
     "cidade": "Fortaleza",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
-    "foto_original": "blog-lexi-3.jpg",
+    "foto_original": "profile-6.webp",
     "url_amigavel": "perfil-fernanda-6",
     "valores": {
       "30min": 100,
@@ -89,7 +89,7 @@
     "categoria": "feminina",
     "cidade": "Manaus",
     "descricao": "Experiência de classe alta e discrição garantida.",
-    "foto_original": "c36fdabeb30fed89770927eefa18dc0f.jpg",
+    "foto_original": "profile-7.jpeg",
     "url_amigavel": "perfil-gabriela-7",
     "valores": {
       "30min": 150,
@@ -103,7 +103,7 @@
     "categoria": "feminina",
     "cidade": "Recife",
     "descricao": "Profissional qualificada para acompanhamento VIP.",
-    "foto_original": "c7241d657261689a23671d505f113a1d_high.webp",
+    "foto_original": "profile-8.jpeg",
     "url_amigavel": "perfil-helena-8",
     "valores": {
       "30min": 120,
@@ -117,7 +117,7 @@
     "categoria": "feminina",
     "cidade": "Porto Alegre",
     "descricao": "Dedicada a proporcionar momentos memoráveis.",
-    "foto_original": "images (1).jpeg",
+    "foto_original": "profile-9.jpeg",
     "url_amigavel": "perfil-isabela-9",
     "valores": {
       "30min": 150,
@@ -131,7 +131,7 @@
     "categoria": "feminina",
     "cidade": "Curitiba",
     "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
-    "foto_original": "images (10).jpeg",
+    "foto_original": "profile-10.jpeg",
     "url_amigavel": "perfil-juliana-10",
     "valores": {
       "30min": 130,
@@ -145,7 +145,7 @@
     "categoria": "feminina",
     "cidade": "Guarulhos",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
-    "foto_original": "images (11).jpeg",
+    "foto_original": "profile-11.jpeg",
     "url_amigavel": "perfil-karina-11",
     "valores": {
       "30min": 100,
@@ -159,7 +159,7 @@
     "categoria": "feminina",
     "cidade": "Campinas",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
-    "foto_original": "images (12).jpeg",
+    "foto_original": "profile-12.jpeg",
     "url_amigavel": "perfil-larissa-12",
     "valores": {
       "30min": 150,
@@ -173,7 +173,7 @@
     "categoria": "feminina",
     "cidade": "Santos",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
-    "foto_original": "images (13).jpeg",
+    "foto_original": "profile-13.jpeg",
     "url_amigavel": "perfil-mariana-13",
     "valores": {
       "30min": 120,
@@ -187,7 +187,7 @@
     "categoria": "feminina",
     "cidade": "Sorocaba",
     "descricao": "Discreta, educada e com total comprometimento.",
-    "foto_original": "images (14).jpeg",
+    "foto_original": "profile-14.jpeg",
     "url_amigavel": "perfil-natália-14",
     "valores": {
       "30min": 100,
@@ -201,7 +201,7 @@
     "categoria": "feminina",
     "cidade": "Ribeirão Preto",
     "descricao": "Oferecendo momentos de luxo e conforto.",
-    "foto_original": "images (15).jpeg",
+    "foto_original": "profile-15.jpeg",
     "url_amigavel": "perfil-olivia-15",
     "valores": {
       "30min": 150,
@@ -215,7 +215,7 @@
     "categoria": "feminina",
     "cidade": "Goiânia",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
-    "foto_original": "images (16).jpeg",
+    "foto_original": "profile-16.jpeg",
     "url_amigavel": "perfil-patrícia-16",
     "valores": {
       "30min": 120,
@@ -229,7 +229,7 @@
     "categoria": "feminina",
     "cidade": "Belém",
     "descricao": "Experiência de classe alta e discrição garantida.",
-    "foto_original": "images (17).jpeg",
+    "foto_original": "profile-17.jpeg",
     "url_amigavel": "perfil-quézia-17",
     "valores": {
       "30min": 100,
@@ -243,7 +243,7 @@
     "categoria": "trans",
     "cidade": "Maceió",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
-    "foto_original": "images (18).jpeg",
+    "foto_original": "profile-18.jpg",
     "url_amigavel": "perfil-adriana-18",
     "valores": {
       "30min": 150,
@@ -257,7 +257,7 @@
     "categoria": "trans",
     "cidade": "Teresina",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
-    "foto_original": "images (19).jpeg",
+    "foto_original": "profile-19.jpg",
     "url_amigavel": "perfil-bruna-19",
     "valores": {
       "30min": 100,
@@ -271,7 +271,7 @@
     "categoria": "trans",
     "cidade": "João Pessoa",
     "descricao": "Discreta, educada e com total comprometimento.",
-    "foto_original": "images (2).jpeg",
+    "foto_original": "profile-20.jpg",
     "url_amigavel": "perfil-cecília-20",
     "valores": {
       "30min": 120,
@@ -285,7 +285,7 @@
     "categoria": "trans",
     "cidade": "Natal",
     "descricao": "Oferecendo momentos de luxo e conforto.",
-    "foto_original": "images (20).jpeg",
+    "foto_original": "profile-21.jpeg",
     "url_amigavel": "perfil-diana-21",
     "valores": {
       "30min": 150,
@@ -299,7 +299,7 @@
     "categoria": "trans",
     "cidade": "Aracaju",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
-    "foto_original": "images (21).jpeg",
+    "foto_original": "profile-22.jpeg",
     "url_amigavel": "perfil-emilia-22",
     "valores": {
       "30min": 100,
@@ -313,7 +313,7 @@
     "categoria": "trans",
     "cidade": "Cuiabá",
     "descricao": "Experiência de classe alta e discrição garantida.",
-    "foto_original": "images (22).jpeg",
+    "foto_original": "profile-23.jpeg",
     "url_amigavel": "perfil-flávia-23",
     "valores": {
       "30min": 150,
@@ -327,7 +327,7 @@
     "categoria": "trans",
     "cidade": "Campo Grande",
     "descricao": "Profissional qualificada para acompanhamento VIP.",
-    "foto_original": "images (23).jpeg",
+    "foto_original": "profile-24.jpeg",
     "url_amigavel": "perfil-gisele-24",
     "valores": {
       "30min": 120,
@@ -341,7 +341,7 @@
     "categoria": "trans",
     "cidade": "Palmas",
     "descricao": "Dedicada a proporcionar momentos memoráveis.",
-    "foto_original": "images (3).jpeg",
+    "foto_original": "profile-25.jpeg",
     "url_amigavel": "perfil-heloísa-25",
     "valores": {
       "30min": 100,
@@ -355,7 +355,7 @@
     "categoria": "trans",
     "cidade": "Boa Vista",
     "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
-    "foto_original": "images (4).jpeg",
+    "foto_original": "profile-26.jpeg",
     "url_amigavel": "perfil-iris-26",
     "valores": {
       "30min": 150,
@@ -369,7 +369,7 @@
     "categoria": "trans",
     "cidade": "Macapá",
     "descricao": "Acompanhante exclusiva para momentos especiais.",
-    "foto_original": "images (5).jpeg",
+    "foto_original": "profile-27.jpeg",
     "url_amigavel": "perfil-joana-27",
     "valores": {
       "30min": 120,
@@ -383,7 +383,7 @@
     "categoria": "trans",
     "cidade": "Rio Branco",
     "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
-    "foto_original": "images (6).jpeg",
+    "foto_original": "profile-28.jpeg",
     "url_amigavel": "perfil-karla-28",
     "valores": {
       "30min": 100,
@@ -397,7 +397,7 @@
     "categoria": "trans",
     "cidade": "Vitória",
     "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
-    "foto_original": "images (7).jpeg",
+    "foto_original": "profile-29.jpeg",
     "url_amigavel": "perfil-lúcia-29",
     "valores": {
       "30min": 150,
@@ -411,7 +411,7 @@
     "categoria": "trans",
     "cidade": "Florianópolis",
     "descricao": "Discreta, educada e com total comprometimento.",
-    "foto_original": "images (8).jpeg",
+    "foto_original": "profile-30.jpeg",
     "url_amigavel": "perfil-marina-30",
     "valores": {
       "30min": 120,
@@ -425,7 +425,7 @@
     "categoria": "trans",
     "cidade": "Blumenau",
     "descricao": "Oferecendo momentos de luxo e conforto.",
-    "foto_original": "images (9).jpeg",
+    "foto_original": "profile-31.jpg",
     "url_amigavel": "perfil-nathalia-31",
     "valores": {
       "30min": 100,
@@ -439,7 +439,7 @@
     "categoria": "trans",
     "cidade": "Joinville",
     "descricao": "Atenciosa e carismática, pronta para surpreender.",
-    "foto_original": "prompthero-prompt-7bd407a328e.webp",
+    "foto_original": "profile-32.jpeg",
     "url_amigavel": "perfil-ofélia-32",
     "valores": {
       "30min": 150,
@@ -453,7 +453,7 @@
     "categoria": "trans",
     "cidade": "Londrina",
     "descricao": "Experiência de classe alta e discrição garantida.",
-    "foto_original": "t67f001068e299_h.webp",
+    "foto_original": "profile-33.jpg",
     "url_amigavel": "perfil-priscila-33",
     "valores": {
       "30min": 120,
