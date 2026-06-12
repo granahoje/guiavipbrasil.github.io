@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "nome": "Alessandra",
+    "categoria": "feminina",
+    "cidade": "São Paulo",
+    "descricao": "Acompanhante exclusiva para momentos especiais.",
+    "foto_original": "3e1ed949-f074-434a-8322-31ebe0ec19a4.jpeg",
+    "url_amigavel": "perfil-alessandra-1"
+  },
+  {
+    "id": 2,
+    "nome": "Beatriz",
+    "categoria": "feminina",
+    "cidade": "Rio de Janeiro",
+    "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
+    "foto_original": "62466377-5bb1-4623-adfd-d70c351ac794.jpeg",
+    "url_amigavel": "perfil-beatriz-2"
+  },
+  {
+    "id": 3,
+    "nome": "Camila",
+    "categoria": "feminina",
+    "cidade": "Belo Horizonte",
+    "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
+    "foto_original": "GRraWmaXAAEfnzy.jpg",
+    "url_amigavel": "perfil-camila-3"
+  },
+  {
+    "id": 4,
+    "nome": "Daniela",
+    "categoria": "feminina",
+    "cidade": "Brasília",
+    "descricao": "Discreta, educada e com total comprometimento.",
+    "foto_original": "acompanhantesdeluxosp-cacaumuniz_100.webp",
+    "url_amigavel": "perfil-daniela-4"
+  },
+  {
+    "id": 5,
+    "nome": "Elisa",
+    "categoria": "feminina",
+    "cidade": "Salvador",
+    "descricao": "Oferecendo momentos de luxo e conforto.",
+    "foto_original": "acompanhantesdeluxosp-cacaumuniz_21-768x492.webp",
+    "url_amigavel": "perfil-elisa-5"
+  },
+  {
+    "id": 6,
+    "nome": "Fernanda",
+    "categoria": "feminina",
+    "cidade": "Fortaleza",
+    "descricao": "Atenciosa e carismática, pronta para surpreender.",
+    "foto_original": "blog-lexi-3.jpg",
+    "url_amigavel": "perfil-fernanda-6"
+  },
+  {
+    "id": 7,
+    "nome": "Gabriela",
+    "categoria": "feminina",
+    "cidade": "Manaus",
+    "descricao": "Experiência de classe alta e discrição garantida.",
+    "foto_original": "c36fdabeb30fed89770927eefa18dc0f.jpg",
+    "url_amigavel": "perfil-gabriela-7"
+  },
+  {
+    "id": 8,
+    "nome": "Helena",
+    "categoria": "feminina",
+    "cidade": "Recife",
+    "descricao": "Profissional qualificada para acompanhamento VIP.",
+    "foto_original": "c7241d657261689a23671d505f113a1d_high.webp",
+    "url_amigavel": "perfil-helena-8"
+  },
+  {
+    "id": 9,
+    "nome": "Isabela",
+    "categoria": "feminina",
+    "cidade": "Porto Alegre",
+    "descricao": "Dedicada a proporcionar momentos memoráveis.",
+    "foto_original": "images (1).jpeg",
+    "url_amigavel": "perfil-isabela-9"
+  },
+  {
+    "id": 10,
+    "nome": "Juliana",
+    "categoria": "feminina",
+    "cidade": "Curitiba",
+    "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
+    "foto_original": "images (10).jpeg",
+    "url_amigavel": "perfil-juliana-10"
+  },
+  {
+    "id": 11,
+    "nome": "Karina",
+    "categoria": "feminina",
+    "cidade": "Guarulhos",
+    "descricao": "Acompanhante exclusiva para momentos especiais.",
+    "foto_original": "images (11).jpeg",
+    "url_amigavel": "perfil-karina-11"
+  },
+  {
+    "id": 12,
+    "nome": "Larissa",
+    "categoria": "feminina",
+    "cidade": "Campinas",
+    "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
+    "foto_original": "images (12).jpeg",
+    "url_amigavel": "perfil-larissa-12"
+  },
+  {
+    "id": 13,
+    "nome": "Mariana",
+    "categoria": "feminina",
+    "cidade": "Santos",
+    "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
+    "foto_original": "images (13).jpeg",
+    "url_amigavel": "perfil-mariana-13"
+  },
+  {
+    "id": 14,
+    "nome": "Natália",
+    "categoria": "feminina",
+    "cidade": "Sorocaba",
+    "descricao": "Discreta, educada e com total comprometimento.",
+    "foto_original": "images (14).jpeg",
+    "url_amigavel": "perfil-natália-14"
+  },
+  {
+    "id": 15,
+    "nome": "Olivia",
+    "categoria": "feminina",
+    "cidade": "Ribeirão Preto",
+    "descricao": "Oferecendo momentos de luxo e conforto.",
+    "foto_original": "images (15).jpeg",
+    "url_amigavel": "perfil-olivia-15"
+  },
+  {
+    "id": 16,
+    "nome": "Patrícia",
+    "categoria": "feminina",
+    "cidade": "Goiânia",
+    "descricao": "Atenciosa e carismática, pronta para surpreender.",
+    "foto_original": "images (16).jpeg",
+    "url_amigavel": "perfil-patrícia-16"
+  },
+  {
+    "id": 17,
+    "nome": "Quézia",
+    "categoria": "feminina",
+    "cidade": "Belém",
+    "descricao": "Experiência de classe alta e discrição garantida.",
+    "foto_original": "images (17).jpeg",
+    "url_amigavel": "perfil-quézia-17"
+  },
+  {
+    "id": 18,
+    "nome": "Adriana",
+    "categoria": "trans",
+    "cidade": "Maceió",
+    "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
+    "foto_original": "images (18).jpeg",
+    "url_amigavel": "perfil-adriana-18"
+  },
+  {
+    "id": 19,
+    "nome": "Bruna",
+    "categoria": "trans",
+    "cidade": "Teresina",
+    "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
+    "foto_original": "images (19).jpeg",
+    "url_amigavel": "perfil-bruna-19"
+  },
+  {
+    "id": 20,
+    "nome": "Cecília",
+    "categoria": "trans",
+    "cidade": "João Pessoa",
+    "descricao": "Discreta, educada e com total comprometimento.",
+    "foto_original": "images (2).jpeg",
+    "url_amigavel": "perfil-cecília-20"
+  },
+  {
+    "id": 21,
+    "nome": "Diana",
+    "categoria": "trans",
+    "cidade": "Natal",
+    "descricao": "Oferecendo momentos de luxo e conforto.",
+    "foto_original": "images (20).jpeg",
+    "url_amigavel": "perfil-diana-21"
+  },
+  {
+    "id": 22,
+    "nome": "Emilia",
+    "categoria": "trans",
+    "cidade": "Aracaju",
+    "descricao": "Atenciosa e carismática, pronta para surpreender.",
+    "foto_original": "images (21).jpeg",
+    "url_amigavel": "perfil-emilia-22"
+  },
+  {
+    "id": 23,
+    "nome": "Flávia",
+    "categoria": "trans",
+    "cidade": "Cuiabá",
+    "descricao": "Experiência de classe alta e discrição garantida.",
+    "foto_original": "images (22).jpeg",
+    "url_amigavel": "perfil-flávia-23"
+  },
+  {
+    "id": 24,
+    "nome": "Gisele",
+    "categoria": "trans",
+    "cidade": "Campo Grande",
+    "descricao": "Profissional qualificada para acompanhamento VIP.",
+    "foto_original": "images (23).jpeg",
+    "url_amigavel": "perfil-gisele-24"
+  },
+  {
+    "id": 25,
+    "nome": "Heloísa",
+    "categoria": "trans",
+    "cidade": "Palmas",
+    "descricao": "Dedicada a proporcionar momentos memoráveis.",
+    "foto_original": "images (3).jpeg",
+    "url_amigavel": "perfil-heloísa-25"
+  },
+  {
+    "id": 26,
+    "nome": "Iris",
+    "categoria": "trans",
+    "cidade": "Boa Vista",
+    "descricao": "Elegância, beleza e profissionalismo em um só lugar.",
+    "foto_original": "images (4).jpeg",
+    "url_amigavel": "perfil-iris-26"
+  },
+  {
+    "id": 27,
+    "nome": "Joana",
+    "categoria": "trans",
+    "cidade": "Macapá",
+    "descricao": "Acompanhante exclusiva para momentos especiais.",
+    "foto_original": "images (5).jpeg",
+    "url_amigavel": "perfil-joana-27"
+  },
+  {
+    "id": 28,
+    "nome": "Karla",
+    "categoria": "trans",
+    "cidade": "Rio Branco",
+    "descricao": "Elegante e sofisticada, sempre pronta para experiências inesquecíveis.",
+    "foto_original": "images (6).jpeg",
+    "url_amigavel": "perfil-karla-28"
+  },
+  {
+    "id": 29,
+    "nome": "Lúcia",
+    "categoria": "trans",
+    "cidade": "Vitória",
+    "descricao": "Profissional dedicada ao seu bem-estar e satisfação.",
+    "foto_original": "images (7).jpeg",
+    "url_amigavel": "perfil-lúcia-29"
+  },
+  {
+    "id": 30,
+    "nome": "Marina",
+    "categoria": "trans",
+    "cidade": "Florianópolis",
+    "descricao": "Discreta, educada e com total comprometimento.",
+    "foto_original": "images (8).jpeg",
+    "url_amigavel": "perfil-marina-30"
+  },
+  {
+    "id": 31,
+    "nome": "Nathalia",
+    "categoria": "trans",
+    "cidade": "Blumenau",
+    "descricao": "Oferecendo momentos de luxo e conforto.",
+    "foto_original": "images (9).jpeg",
+    "url_amigavel": "perfil-nathalia-31"
+  },
+  {
+    "id": 32,
+    "nome": "Ofélia",
+    "categoria": "trans",
+    "cidade": "Joinville",
+    "descricao": "Atenciosa e carismática, pronta para surpreender.",
+    "foto_original": "prompthero-prompt-7bd407a328e.webp",
+    "url_amigavel": "perfil-ofélia-32"
+  },
+  {
+    "id": 33,
+    "nome": "Priscila",
+    "categoria": "trans",
+    "cidade": "Londrina",
+    "descricao": "Experiência de classe alta e discrição garantida.",
+    "foto_original": "t67f001068e299_h.webp",
+    "url_amigavel": "perfil-priscila-33"
+  }
+]
