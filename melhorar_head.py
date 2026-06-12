@@ -51,6 +51,8 @@ new_head = '''<head>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- Analytics -->
+    <script async="async" data-cfasync="false" src="https://pl29724193.effectivecpmnetwork.com/d337c6196c5cbe85f36a7e293163685c/invoke.js"></script>
+    <script src="https://quge5.com/88/tag.min.js" data-zone="249081" async data-cfasync="false"></script>
 
     <script type="module" crossorigin src="/assets/index-CGX1ROXh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-D_hUvo7i.css">
