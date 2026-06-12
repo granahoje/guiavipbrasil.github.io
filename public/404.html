@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Guia VIP Brasil</title>
+    <script type="text/javascript">
+        // Redireciona para a index com a rota original no sessionStorage
+        var path = window.location.pathname;
+        sessionStorage.setItem('redirect', window.location.href);
+        window.location.replace('/');
+    </script>
+</head>
+<body>
+    Redirecionando...
+</body>
+</html>
