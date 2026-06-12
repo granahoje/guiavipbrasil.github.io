@@ -140,7 +140,11 @@ export default function Home() {
                       className="profile-image group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-95" />
-                    <span className="absolute left-4 top-4 rounded-full border border-white/15 bg-black/45 px-3 py-1 text-xs font-bold uppercase tracking-[0.22em] text-white backdrop-blur">
+                    <span className={`absolute left-4 top-4 rounded-full border px-4 py-2 text-xs font-bold uppercase tracking-[0.22em] backdrop-blur ${
+                      perfil.categoria === "feminina"
+                        ? "border-amber-400/50 bg-amber-500/40 text-amber-100"
+                        : "border-pink-400/60 bg-pink-600/50 text-pink-100 shadow-lg shadow-pink-500/30"
+                    }`}>
                       {perfil.categoria === "feminina" ? "Feminina" : "Trans"}
                     </span>
                   </div>
