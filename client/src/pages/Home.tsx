@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { MapPin, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
@@ -20,7 +20,7 @@ export default function Home() {
   const [busca, setBusca] = useState("");
 
   // Carregar perfis
-  React.useEffect(() => {
+  useEffect(() => {
     fetch("/perfis.json")
       .then((res) => res.json())
       .then((data: Perfil[]) => {
