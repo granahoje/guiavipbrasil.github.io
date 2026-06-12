@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Fernanda - Fortaleza">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120617"/>
+      <stop offset="0.52" stop-color="#070707"/>
+      <stop offset="1" stop-color="#2a1608"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="32%" r="54%">
+      <stop offset="0" stop-color="#c77dff" stop-opacity="0.52"/>
+      <stop offset="0.55" stop-color="#e2a84f" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4df" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e2a84f" stop-opacity="0.78"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+  <g opacity="0.16" stroke="#e2a84f" stroke-width="2" fill="none">
+    <circle cx="450" cy="390" r="280"/>
+    <circle cx="450" cy="390" r="220"/>
+    <path d="M130 170 C300 250 610 250 770 170"/>
+    <path d="M120 1010 C300 930 610 930 780 1010"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="450" cy="1038" rx="265" ry="48" fill="#000" opacity="0.32"/>
+    <path d="M278 945 C292 764 345 640 450 640 C555 640 608 764 622 945 C548 1003 352 1003 278 945Z" fill="url(#sil)" opacity="0.9"/>
+    <circle cx="450" cy="425" r="146" fill="url(#sil)" opacity="0.94"/>
+    <path d="M313 430 C323 270 390 190 500 224 C605 257 638 375 596 500 C568 433 531 390 472 378 C405 365 360 383 313 430Z" fill="#2c180d" opacity="0.68"/>
+    <path d="M345 548 C405 618 500 619 557 548 C528 668 374 670 345 548Z" fill="#ffffff" opacity="0.18"/>
+  </g>
+  <g text-anchor="middle">
+    <rect x="250" y="82" width="400" height="56" rx="28" fill="#000" opacity="0.34" stroke="#e2a84f" stroke-opacity="0.52"/>
+    <text x="450" y="119" fill="#e2a84f" font-family="DM Sans, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="4">GUIA VIP BRASIL</text>
+    <circle cx="450" cy="828" r="72" fill="#070707" opacity="0.58" stroke="#e2a84f" stroke-width="3"/>
+    <text x="450" y="851" fill="#e2a84f" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="700">F</text>
+    <text x="450" y="1026" fill="#fff8ea" font-family="Playfair Display, Georgia, serif" font-size="62" font-weight="700">Fernanda</text>
+    <text x="450" y="1082" fill="#e2a84f" font-family="DM Sans, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="2">Feminina • Fortaleza</text>
+  </g>
+</svg>

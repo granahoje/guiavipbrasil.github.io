@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Guia VIP Brasil</title>
-    <script>
-        // Redirecionar para index.html mantendo a rota
-        sessionStorage.redirect = location.href;
-    </script>
-    <meta http-equiv="refresh" content="0;url=/index.html"></meta>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia VIP Brasil</title>
+  <script>
+    sessionStorage.setItem('redirect', window.location.href);
+    window.location.replace('/');
+  </script>
 </head>
 <body>
+  <noscript>
+    <p>Redirecionando para a página inicial do Guia VIP Brasil.</p>
+    <a href="/">Voltar ao início</a>
+  </noscript>
 </body>
 </html>

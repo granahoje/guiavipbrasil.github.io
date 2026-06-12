@@ -202,3 +202,130 @@
     @apply bg-accent text-accent-foreground px-6 py-2 rounded font-semibold hover:opacity-90 transition-opacity;
   }
 }
+
+@layer components {
+  .site-shell {
+    background:
+      radial-gradient(circle at top left, rgba(216, 165, 82, 0.18), transparent 34rem),
+      radial-gradient(circle at 80% 10%, rgba(168, 85, 247, 0.12), transparent 28rem),
+      linear-gradient(180deg, #060606 0%, #0c0a09 48%, #050505 100%);
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold uppercase tracking-[0.28em] text-accent;
+  }
+
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: linear-gradient(to bottom, black, transparent 85%);
+  }
+
+  .hero-card,
+  .stat-card,
+  .info-card,
+  .profile-detail-card {
+    @apply border border-white/10 bg-white/[0.045] shadow-2xl shadow-black/30 backdrop-blur;
+  }
+
+  .hero-card {
+    @apply rounded-3xl p-8;
+  }
+
+  .hero-card h3 {
+    @apply mt-5 text-3xl font-bold text-foreground;
+  }
+
+  .hero-card p {
+    @apply mt-3 leading-7 text-muted-foreground;
+  }
+
+  .stat-card {
+    @apply rounded-2xl p-5;
+  }
+
+  .stat-card strong {
+    @apply block text-3xl font-bold text-foreground;
+  }
+
+  .stat-card span {
+    @apply mt-1 block text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground;
+  }
+
+  .search-box {
+    @apply flex w-full items-center gap-3 rounded-full border border-white/10 bg-white/[0.045] px-4 py-3 lg:max-w-md;
+  }
+
+  .empty-state {
+    @apply rounded-3xl border border-white/10 bg-white/[0.04] py-20 text-center text-muted-foreground;
+  }
+
+  .profile-card {
+    @apply overflow-hidden rounded-3xl border border-white/10 bg-white/[0.045] shadow-xl shadow-black/25 transition-all duration-300;
+  }
+
+  .profile-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(216, 165, 82, 0.55);
+    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.42);
+  }
+
+  .profile-image {
+    @apply h-full w-full object-cover transition-transform duration-500;
+  }
+
+  .profile-name {
+    @apply text-3xl font-bold text-foreground;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .profile-city {
+    @apply text-sm font-semibold text-muted-foreground;
+  }
+
+  .profile-category {
+    @apply text-xs font-semibold uppercase tracking-wider text-accent;
+  }
+
+  .btn-primary {
+    @apply rounded-xl bg-accent px-6 py-3 font-bold text-accent-foreground transition-all hover:-translate-y-0.5 hover:opacity-95;
+  }
+
+  .profile-detail-card {
+    @apply rounded-[2rem] p-4 md:p-6;
+  }
+
+  .info-card {
+    @apply rounded-2xl p-5;
+  }
+
+  .info-card span {
+    @apply mt-3 block text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground;
+  }
+
+  .info-card strong {
+    @apply mt-1 block text-lg text-foreground;
+  }
+
+  .chat-panel {
+    box-shadow: 0 32px 90px rgba(0, 0, 0, 0.58);
+  }
+
+  @media (max-width: 520px) {
+    .chat-panel {
+      left: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      height: min(560px, calc(100vh - 2rem));
+    }
+  }
+}
